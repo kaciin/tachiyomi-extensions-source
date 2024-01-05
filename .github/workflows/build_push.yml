@@ -198,6 +198,7 @@ jobs:
         with:
           repository: keiyoushi/tachiyomi-extensions
           token: ${{ secrets.BOT_PAT }}
+          ref: repo
           path: repo
 
       - name: Deploy repo
